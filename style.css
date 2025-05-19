@@ -1,4 +1,3 @@
-
 :root {
   --gradient-start: #ff758c;
   --gradient-end: #ff7eb3;
@@ -79,48 +78,4 @@ section {
   transition: transform 0.3s ease;
 }
 
-.project:hover {
-  transform: translateY(-5px);
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  background: var(--accent);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.3s ease;
-}
-
-.btn:hover {
-  background: #ff4c9b;
-}
-
-.contact a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-footer {
-  background: #222;
-  color: #eee;
-  text-align: center;
-  padding: 1.5rem 0;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .project {
-    padding: 1.5rem;
-  }
-}
+.p
